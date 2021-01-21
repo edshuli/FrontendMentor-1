@@ -69,7 +69,18 @@ th {
     color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:369px) {
+    body {
+        background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+        background-position: top -500px left -800px, bottom -400px right -750px;
+        background-repeat: no-repeat;
+    }
+    .card {
+        margin: 30% 3% 5% 1%;
+    }
+}
+
+@media (min-width:370px) and (max-width:410px) {
     body {
         background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
         background-position: top -500px left -800px, bottom -600px right -600px;
@@ -85,6 +96,42 @@ th {
         border-radius: 20px;
         box-shadow: 0 5px 30px 5px rgb(126 109 133 / 39%);
         margin: 30% 35% 5% 3%;
+    }
+}
+
+@media (min-width:411px) and (max-width:760px) {
+    body {
+        background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+        background-position: top -500px left -800px, bottom -600px right -600px;
+        background-repeat: no-repeat;
+    }
+    .card {
+        margin: 43% 5% 5% 7%;
+    }
+}
+
+@media (min-width: 761px) and (max-width: 1022px) {
+    body {
+        background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+        background-position: top -400px left -600px, bottom -200px right -500px;
+        background-repeat: no-repeat;
+    }
+    .card {
+        margin: 40% 35% 5% 30%;
+    }
+    .attribution {
+        margin-right: -8%;
+    }
+}
+
+@media (min-width:1023px) and (max-width:1500px) {
+    body {
+        background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+        background-position: top -500px left -400px, bottom 0px right -250px;
+        background-repeat: no-repeat;
+    }
+    .card {
+        margin: 40% 30% 5% 30%;
     }
 }
 
