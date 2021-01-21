@@ -87,3 +87,9 @@ th {
         margin: 30% 35% 5% 3%;
     }
 }
+
+@media (min-width:1550px) and (max-width:2220px) {
+    .attribution {
+        margin-right: 9%;
+    }
+}
